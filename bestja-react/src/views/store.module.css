@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0e000f;
+}
+.container1 {
+  width: 100%;
+  height: 594px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+.text {
+  font-size: 1.5rem;
+}
+.textinput {
+  margin-left: 2rem;
+  background-color: var(--dl-color-secondary-700);
+}
+.Surname {
+  margin-top: var(--dl-space-space-unit);
+}
+.text1 {
+  font-size: 1.5rem;
+}
+.textinput1 {
+  margin-left: 53px;
+  background-color: var(--dl-color-secondary-700);
+}
+.Email {
+  margin-top: var(--dl-space-space-unit);
+}
+.text2 {
+  font-size: 1.5rem;
+}
+.textinput2 {
+  margin-left: 94px;
+  background-color: var(--dl-color-secondary-700);
+}
+.button {
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+@media(max-width: 991px) {
+  .container1 {
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    padding-top: 197px;
+  }
+}
